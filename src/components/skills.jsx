@@ -32,7 +32,7 @@ class Skills extends Component {
   render() {
     return (
       <div id="skill" className="p-3 mt-3">
-        <div className="flex uppercase text-4xl md:text-5xl justify-center xl:mr-24 text-black font-bold font-['Montserrat'] tracking-wider">
+        <div className="flex uppercase text-4xl md:text-5xl justify-center w-screen text-black font-bold font-['Montserrat'] tracking-wider">
           skills
         </div>
         <div className="flex lg:justify-center p-3">

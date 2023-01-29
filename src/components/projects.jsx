@@ -19,7 +19,7 @@ function Projects() {
           <div className="px-5 flex">
             <h3 className="font-bold text-lg md:text-xl">Video demo:</h3>
             <a
-              className="p-1 text-blue-600"
+              className="p-1 text-blue-600 md:text-xl"
               href="https://drive.google.com/file/d/1QV797TjReMKU0_UqqGvu8kEYxZqp7AoW/view?usp=share_link">
               Google Drive
             </a>

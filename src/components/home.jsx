@@ -20,7 +20,7 @@ function Home() {
     <>
       {/* Navbar */}
 
-      <div className="h-[700px] flex flex-col relative overflow-hidden bg-blue">
+      <div className="h-[725px] flex flex-col relative overflow-hidden bg-blue">
         <div className="w-[650px] h-[700px] absolute -top-44 left-[77%] rotate-[-55deg] rounded-[100px] bg-blue-600 z-[-1] overflow-hidden">
           <div className="w-[20px] h-[20px] rotate-60 absolute left-[25%] top-[30%] border-4 border-white"></div>
           <div className="w-[20px] h-[20px] rounded-full absolute left-[41%] top-[30%] border-4 border-white"></div>

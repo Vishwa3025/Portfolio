@@ -144,8 +144,8 @@ function Home() {
               <div className="text-md font-normal py-1 md:py-3">
                 A Full-time Student and a Frontend Developer with focus on
                 React, but still exploring other technologies and frameworks
-                that catch my interest! If you are looking for a developer to
-                add to your team,I'd love to hear from you.
+                that catch my interest. If you are looking for a developer to
+                add to your team, I'd love to hear from you.
               </div>
               <div className="bg-blue-600 text-white rounded-[35px] max-w-fit m-2 p-3">
                 <div className="flex">

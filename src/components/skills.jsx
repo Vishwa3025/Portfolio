@@ -35,7 +35,7 @@ class Skills extends Component {
         <div className="flex uppercase text-4xl md:text-5xl justify-center w-screen text-black font-bold font-['Montserrat'] tracking-wider">
           skills
         </div>
-        <div className="flex lg:justify-center p-3">
+        <div className="flex lg:justify-center w-screen p-3">
           <div className="w-1/2 lg:w-1/5 text-white p-5">
             {this.state.icons.map((i) => (
               <div className="md:flex md:justify-center">

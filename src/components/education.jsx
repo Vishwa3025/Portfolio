@@ -6,11 +6,11 @@ function Education() {
     <div
       id="edu"
       className="flex-col text-white font-['Montserrat'] bg-blue-600">
-      <div className="flex justify-center p-3 lg:p-5  text-3xl md:text-5xl uppercase font-bold tracking-wider ">
+      <div className="flex justify-center p-3 lg:p-5 w-screen text-3xl md:text-5xl uppercase font-bold tracking-wider ">
         Education
       </div>
 
-      <div className="tracking-wider w-full ">
+      <div className="tracking-wider w-screen ">
         <div className="text-md lg:text-xl font-normal p-3 lg:p-5 flex flex-col items-center">
           <div className="p-3 md:p-2">
             Bachelor of Engineering,Computer Science(2020-2024), Panimalar

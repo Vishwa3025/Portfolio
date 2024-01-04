@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+  transition: 150ms;
+}
+
+:root {
+  --primary-color: #0f0c27;
+  --secondary-color: white;
+  --tertiary-color: #22c55e;
+  --quaternary-color: #033a80;
+}
+
+.dark-theme {
+  --primary-color: white;
+  --secondary-color: #0f0c27;
+  --tertiary-color: #22c55e;
+  --quaternary-color: royalblue;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.a {
+  position: relative;
+  text-decoration: none;
+}
+
+.a:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -10px;
+  background-color: rgb(34 197 94);
+  transition: 0.3s;
+}
+
+.a:hover:after {
+  width: 100%;
+}
+
+i:hover {
+  color: #fb923c;
+  scale: 1.2;
+  transition: 0.3s;
+}
+
+.b {
+  background-color: var(--primary-color);
+}
+
+.txt-sec-clr {
+  color: var(--tertiary-color);
+}
+
+.txt-pry-clr {
+  color: var(--secondary-color);
+}
+
+.btn-clr {
+  background-color: var(--quaternary-color);
+}

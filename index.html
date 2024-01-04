@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio.</title>
+
+    <!-- Tailwind CDN -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome CDN -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- External CSS -->
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="b">
+    <!-- Navbar -->
+
+    <nav class="b">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <div class="flex-shrink-0">
+              <a href="#" class="txt-pry-clr text-3xl font-bold"
+                >Port <span style="color: red">Folio.</span></a
+              >
+            </div>
+          </div>
+          <div class="hidden md:hidden lg:block">
+            <div
+              class="ml-10 txt-pry-clr flex items-baseline space-x-4 text-xs font-semibold uppercase tracking-wide"
+            >
+              <a href="#home" class="a px-3 py-2">Hom</a>
+              <a href="#about" class="a px-3 py-2">About</a>
+              <a href="#skills" class="a px-3 py-2">Skills</a>
+              <a href="#education" class="a px-3 py-2">Education</a>
+              <a href="#projects" class="a px-3 py-2">Projects</a>
+              <div>
+                <i class="fa-solid fa-sun text-xl px-4" id="icon"></i>
+              </div>
+            </div>
+          </div>
+          <div class="-mr-2 flex lg:hidden">
+            <button
+              id="mobile-menu-toggle"
+              type="button"
+              class="inline-flex items-center justify-center p-2 txt-pry-clr"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hidden" id="mobile-menu">
+        <div
+          class="px-2 pt-2 pb-3 sm:px-3 txt-pry-clr uppercase font-semibold text-xs"
+        >
+          <a href="#home" class="block a px-3 py-3 mx-1">Home</a>
+          <a href="#about" class="block a px-3 py-3 mx-1">About</a>
+          <a href="#skills" class="block a px-3 py-3 mx-1">Skills</a>
+          <a href="#education" class="block a px-3 py-3 mx-1">Education</a>
+          <a href="#projects" class="block a px-3 py-3 mx-1">Projects</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section
+      id="home"
+      class="flex p-3 md:p-10 justify-center items-center b txt-pry-clr"
+    >
+      <div class="w-1/5 p-2 m-2">
+        <div class="xl:px-10 py-10 md:py-20 lg:py-36 flex justify-end">
+          <div class="w-fit">
+            <div class="flex justify-center items-center">
+              <i
+                class="text-xl md:text-2xl fa-brands fa-github m-2 md:m-3 w-5 md:w-8 h-8 text-center rounded-full"
+              ></i>
+            </div>
+            <div>
+              <i
+                class="text-xl md:text-2xl fa-brands fa-instagram m-2 md:m-3 w-5 md:w-8 h-8 text-center rounded-full"
+              ></i>
+            </div>
+            <div>
+              <i
+                class="text-xl md:text-2xl fa-brands fa-linkedin-in m-2 md:m-3 w-5 md:w-8 h-8 text-center rounded-full"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-4/5 lg:w-2/5 flex p-2 m-2">
+        <div class="w-fit h-fit lg:py-8 xl:py-20">
+          <div
+            class="px-2 py-1 text-xl md:text-2xl lg:text-3xl font-semibold tracking-wide"
+          >
+            Hello, <span style="color: orange">I'm</span>
+          </div>
+          <h1
+            class="px-2 pt-2 text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-normal"
+          >
+            Vishwa Raghu,
+          </h1>
+          <h2
+            class="px-2 py-2 text-sm md:text-base lg:text-xl font-semibold tracking-wide txt-sec-clr"
+          >
+            <span class="typing"></span>
+          </h2>
+          <p
+            class="text-sm md:text-md lg:text-lg w-fit px-2 py-3 lg:py-5 font-semibold tracking-[0.4px]"
+          >
+            An <span style="color: rgb(34 197 94)">aspiring</span> Frontend
+            Developer & Designer, passionate in developing
+            <span style="color: rgb(34 197 94)">user friendly</span>
+            websites.
+          </p>
+          <button
+            class="hover:no-underline w-28 md:w-32 lg:w-36 h-8 md:h-9 lg:h-10 p-1 btn-clr rounded-lg text-sm md:text-md lg:text-lg font-normal m-1"
+          >
+            <a href="Vishwa_Resume_.pdf" download> Download CV </a>
+          </button>
+        </div>
+      </div>
+      <div class="w-2/5 p-2 m-2 hidden md:hidden lg:block">
+        <!-- <img
+          src="./images/dp1.jpeg"
+          class="w-[350px] h-[450px] rounded-full"
+          alt=""
+        /> -->
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about" class="txt-pry-clr py-20 px-5 md:px-10">
+      <div class="grid grid-cols-2 gap-4 b font-normal">
+        <div class="col-span-2 text-center text-3xl font-bold">
+          ABOUT ME
+          <p class="text-base txt-sec-clr font-normal">Introduction</p>
+        </div>
+        <div
+          class="xl:p-14 m-2 lg:flex justify-center items-center hidden md:hidden lg:block"
+        >
+          <img src="./images/about.jpg" alt="" />
+        </div>
+        <div
+          class="col-span-2 md:col-span-2 lg:col-span-1 md:p-2 m-2 flex flex-col justify-center"
+        >
+          <div
+            class="w-fit h-fit py-5 flex flex-col justify-center items-center"
+          >
+            <p class="w-fit px-3 md:px-14 lg:px-2 lg:py-1 text-lg text-center">
+              A Full-time Student and a
+              <span style="color: rgb(34 197 94)">
+                Frontend Developer with focus on React,</span
+              >
+              but still exploring other technologies and frameworks that catch
+              my interest. If you are looking for a developer to add to your
+              team,
+              <span style="color: rgb(34 197 94)">
+                I'd love to hear from you.</span
+              >
+            </p>
+            <div class="p-2 tracking-wide text-md">
+              <div class="flex my-4">
+                <div><i class="fa-solid fa-user pr-4 pl-2"></i></div>
+                <div>Vishwa R</div>
+              </div>
+              <div class="flex my-4">
+                <div><i class="fa-solid fa-phone pr-4 pl-2"></i></div>
+                <div>+91 7904654890</div>
+              </div>
+              <div class="flex my-4">
+                <div><i class="fa-solid fa-envelope pr-4 pl-2"></i></div>
+                <div>vishwaraghu3025@gmail.com</div>
+              </div>
+            </div>
+            <button
+              class="hover:no-underline w-28 md:w-32 lg:w-36 h-8 md:h-9 lg:h-10 p-1 btn-clr rounded-lg text-sm md:text-md lg:text-lg font-normal m-1"
+            >
+              <a href="Vishwa_Resume_.pdf" download> Download CV </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills" class="txt-pry-clr py-7 md:py-10 xl:py-20 px-10">
+      <div class="grid grid-cols-2 gap-4 b font-normal">
+        <div class="col-span-2 text-center text-4xl font-bold">
+          SKILLS
+          <p class="text-base txt-sec-clr font-normal">My Skills</p>
+        </div>
+
+        <div
+          class="col-span-2 md:col-span-1 flex justify-center items-center p-2 m-2"
+        >
+          <div class="my-3 md:mx-10 p-5 text-5xl xl:text-6xl">
+            <div><i class="p-4 lg:p-5 fa-brands fa-html5"></i></div>
+            <div><i class="p-4 lg:p-5 fa-brands fa-css3-alt"></i></div>
+            <div><i class="p-4 lg:p-5 fa-brands fa-square-js"></i></div>
+            <div><i class="p-4 lg:p-5 fa-brands fa-react"></i></div>
+            <div><i class="p-4 lg:p-5 fa-brands fa-sass"></i></div>
+          </div>
+          <div class="my-3 md:mx-10 p-5 text-5xl xl:text-6xl">
+            <div><i class="p-4 lg:p-5 fa-brands fa-bootstrap"></i></div>
+            <div><i class="p-4 lg:p-5 fa-brands fa-python"></i></div>
+            <div><i class="p-4 lg:p-5 fa-brands fa-java"></i></div>
+            <div><i class="p-4 lg:p-5 fa-brands fa-cuttlefish"></i></div>
+            <div><i class="p-4 lg:p-5 fa-brands fa-figma"></i></div>
+          </div>
+        </div>
+        <div class="md:flex justify-center items-center hidden md:block">
+          <img src="./images/skills.png" class="" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+
+    <section
+      id="education"
+      class="txt-pry-clr py-7 md:py-10 xl:py-20 px-10 sm:text-center transition-all"
+    >
+      <div class="grid grid-cols-2 gap-4 b font-normal tracking-wide">
+        <div class="col-span-2 text-center text-3xl font-bold">
+          EDUCATION
+          <p class="text-base txt-sec-clr font-normal">My Education</p>
+        </div>
+
+        <div
+          class="p-2 m-2 lg:flex justify-center items-center hidden md:hidden lg:block"
+        >
+          <img
+            src="./images/education.png"
+            class="w-[400px]"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div
+          class="col-span-2 md:w-fit md:col-span-2 lg:col-span-1 p-2 m-2 flex flex-col justify-center text-center"
+        >
+          <div>
+            <div class="md:p-4 mx-4 md:my-7">
+              <p class="text-xl md:text-2xl font-bold">
+                Panimalar Engineering College, Chennai.
+              </p>
+              <p class="font-semibold txt-sec-clr">
+                Bachelor of Computer Science Engineering
+              </p>
+              <p class="font-bold txt-sec-clr">2020 - 2024</p>
+            </div>
+            <div class="md:p-4 mx-4 my-7">
+              <p class="text-xl md:text-2xl font-bold">
+                Shree Niketan Matriculation Higher Secondary School,
+                Thiruvallur.
+              </p>
+              <p class="font-semibold txt-sec-clr">Higher Secondary</p>
+              <p class="font-bold txt-sec-clr">2018 - 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects" class="txt-pry-clr mt-5">
+      <div class="text-center text-3xl font-bold">
+        PROJECTS
+        <p class="text-base txt-sec-clr font-normal">My Works</p>
+      </div>
+      <div class="py-5 md:py-8">
+        <p class="text-center px-10 md:px-20 lg:px-28 font-semibold text-lg">
+          I'd like to showcase some of my exciting projects that I've been
+          worked on.The best means to become better at programming is by
+          developing applications that translate
+          <span style="color: rgb(34 197 94)"
+            >theory into something live and working.</span
+          >
+        </p>
+      </div>
+      <div
+        class="w-fit h-fit lg:flex justify-center items-center mx-5 my-6 xl:my-14"
+      >
+        <div class="lg:w-1/2 md:p-5">
+          <div class="-lime-600 -2 lg:my-24 xl:my-4">
+            <img src="./images/resume.jpg" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-1/2 p-3 md:p-5">
+          <div class="font-bold text-2xl text-blue-600 p-4">
+            <span style="text-transform: uppercase">Resume Builder</span>
+            <div class="text-yellow-400 font-normal text-base px-3">
+              <p class="">Technologies used,</p>
+              <p class="italic">React JS, Redux, Tailwind CSS</p>
+            </div>
+            <p class="font-normal text-base txt-pry-clr py-4 px-2">
+              <span class="txt-sec-clr">1. </span> Simple and user friendly
+              design.
+              <br />
+              <span class="txt-sec-clr">2. </span> Developed with fully focused
+              on React and Redux (State Management Library). <br />
+              <span class="txt-sec-clr">3. </span>Responsive Design, adaptable
+              for any screens.
+              <br />
+              <span class="txt-sec-clr">4. </span> Resume can be downloaded as
+              PDF.
+            </p>
+            <div
+              class="flex font-semibold w-fit text-xs tracking-wider uppercase justify-between text-blue-600"
+            >
+              <a
+                href="https://resume-builder-six-phi.vercel.app/"
+                class="a px-4 py-1"
+                >Demo</a
+              >
+              <a href="https://github.com/Vishwa3025/Resume" class="a px-4 py-1"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="w-fit h-fit lg:flex justify-center items-center mx-5 my-5 xl:my-20"
+      >
+        <div class="lg:w-1/2 md:p-5">
+          <div class="lg:my-24 xl:my-4">
+            <img src="./images/carryon.jpg" alt="" />
+          </div>
+        </div>
+        <div class="lg:w-1/2 p-3 md:p-5">
+          <div class="font-bold text-2xl text-blue-600 p-4">
+            <span style="text-transform: uppercase">Carryon</span>
+            <div class="text-yellow-400 font-normal text-base px-3">
+              <p class="">Technologies used,</p>
+              <p class="italic">React JS, Tailwind CSS</p>
+            </div>
+            <p class="font-normal text-base txt-pry-clr py-4 px-2">
+              <span class="txt-sec-clr">1. </span> A project with payment
+              Gateway Integration ( Test Mode ). <br /><span class="txt-sec-clr"
+                >2.
+              </span>
+              Website for charity trust where we can donate to the Needy. <br />
+              <span class="txt-sec-clr">3. </span> Responsive Design, adaptable
+              for any screens.
+            </p>
+            <div
+              class="flex font-semibold w-fit text-xs tracking-wider justify-between text-blue-600 uppercase"
+            >
+              <a href="https://carryon.vercel.app/" class="a px-4 py-1">Demo</a>
+              <a
+                href="https://github.com/Vishwa3025/paymentGateway"
+                class="a px-4 py-1"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Typing Script -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".typing", {
+        strings: ["Frontend Developer.", "Software Engineer.", "Designer."],
+        typeSpeed: 80,
+        backSpeed: 100,
+        loop: true,
+      });
+
+      /*Navbar script*/
+
+      const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      mobileMenuToggle.addEventListener("click", function () {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      /*Theme Script*/
+
+      var icon = document.getElementById("icon");
+
+      icon.onclick = function () {
+        document.body.classList.toggle("dark-theme");
+        icon.classList.toggle("fa-moon");
+        icon.classList.toggle("fa-sun");
+      };
+    </script>
+  </body>
+</html>
